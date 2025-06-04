@@ -37,4 +37,4 @@ A responsive single-page website built as part of a Web Development Internship t
 Easy to use on multiple screen sizes to ensure usability on desktops, tablets, and mobile devices.
 
 #  Preview
-
+https://chimerical-taffy-606cbe.netlify.app/
