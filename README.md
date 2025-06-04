@@ -26,6 +26,12 @@ A responsive single-page website built as part of a Web Development Internship t
 - Font Awesome  
 - JavaScript 
 
+# How to Run
+
+1. Clone or download this repository.
+2. Open `index.html` in your preferred web browser.
+3. Ensure the `Images` folder and other files remain in the same relative locations.
+
 # Responsive Design
 
 Easy to use on multiple screen sizes to ensure usability on desktops, tablets, and mobile devices.
