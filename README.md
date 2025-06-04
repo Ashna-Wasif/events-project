@@ -3,12 +3,11 @@
 A responsive single-page website built as part of a Web Development Internship task at Dynamics 360. This project showcases featured local events in a clean, mobile-friendly layout.
 
 # Project Structure
-.
-├── Images/ # Folder containing event-related images
+```├── Images/ # Folder containing event-related images
 ├── events.json # Data file with a list of upcoming events
 ├── index.html # Main HTML file for the single-page site
 ├── style.css # Custom styles for the webpage
-└── script.js # JavaScript for dynamic content and interactions
+└── script.js # JavaScript for dynamic content and interactions```
 
 # Features
 
