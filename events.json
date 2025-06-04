@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Food Fest",
+    "date": "June 18, 2025 - 6:00 PM",
+    "location": "F9 Park, ISB",
+    "description": "Join us for an evening of live food, and fun in your city.",
+    "image": "Images/Foodfest.jpg"
+  },
+  {
+    "title": "Tech Conference",
+    "date": "July 5, 2025 - 10:00 AM",
+    "location": "Pak China Expo Center",
+    "description": "Explore the latest trends in AI, cloud computing, and development tools.",
+    "image": "Images/Technology.jpg"
+  },
+  {
+    "title": "Art Workshop",
+    "date": "August 20, 2025 - 2:00 PM",
+    "location": "Art Gallery, RWP",
+    "description": "Unleash your creativity at our hands-on art and design workshop.",
+    "image": "Images/Art.jpg"
+  }
+]

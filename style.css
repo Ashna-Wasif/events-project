@@ -1,0 +1,88 @@
+.navbar {
+    background-color: rgb(60, 59, 61);
+}
+
+.navbar-toggler {
+  background-color: white; 
+  border: 1px solid white;
+}
+
+.nav-link, .navbar .navbar-brand {
+    color:white;
+}
+.navbar .nav-link:hover {
+  color: #f205f2; 
+}
+  
+.hero-section {
+    position: relative;
+    height: 80vh;
+    background-image: url('Images/HeroSection.jpeg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    overflow: hidden;
+}
+
+.hero-section::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to right, rgba(128, 0, 128, 0.5), rgba(255, 105, 180, 0.5));
+    z-index: 1;
+}
+
+.hero-section h1, .hero-section h4 {
+  animation: fadeUp 1s ease-out forwards;
+  opacity: 0;
+  transform: translateY(30px);
+  z-index: 2;
+}
+
+.hero-section h4 {
+  animation-delay: 0.5s;
+}
+
+@keyframes fadeUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card i{
+    color: purple;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(128, 0, 128, 0.3);
+}
+
+.card a.btn, #searchToggleBtn, #submitbtn {
+  transition: all 0.3s ease;
+  background-color: purple;
+  border-color: purple;
+  color: white;
+}
+
+.card:hover a.btn, #searchToggleBtn:hover, #submitbtn:hover {
+  background-color: #100110;
+  border-color: #100110;
+  transform: scale(1.05);
+}
+
+
+footer{
+background-color: rgb(60, 59, 61);
+color: white; 
+padding: 20px 0; 
+text-align: center;
+}
